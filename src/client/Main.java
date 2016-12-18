@@ -7,6 +7,6 @@ public class Main {
 
     public static void main(String[] args){
         ClientTests	ct	=	new	ClientTests(new HttpClient());
-        ct.runTests("http://cs.nott.ac.uk/~syn/webfiles/index.html");
+        ct.runTests("http://localhost:4444/index.html");
     }
 }
